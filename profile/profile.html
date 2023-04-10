@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .profile {
+            position: relative;
+            width: 1920px;
+            height: 4619px;
+            background: #FFFFFF;
+        }
+        
+        .header {
+            position: absolute;
+            width: 1764px;
+            height: 90px;
+            left: 55px;
+            top: -2px;
+        }
+        
+        .Browser {
+            position: absolute;
+            width: 155px;
+            height: 21px;
+            left: 669px;
+            top: 33px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            display: flex;
+            align-items: flex-end;
+            color: #272D4E;
+        }
+        
+        .work {
+            position: absolute;
+            width: 108px;
+            height: 21px;
+            left: 868px;
+            top: 33px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #272D4E;
+        }
+        
+        .become {
+            position: absolute;
+            width: 176px;
+            height: 21px;
+            left: 1020px;
+            top: 33px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #272D4E;
+        }
+        
+        #loginbut {
+            position: absolute;
+            width: 70px;
+            height: 21px;
+            left: 1611px;
+            top: 33px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #272D4E;
+            border: none;
+            background-color: white;
+        }
+        
+        #signupbut {
+            position: absolute;
+            width: 63px;
+            height: 21px;
+            left: 1728px;
+            top: 33px;
+            position: absolute;
+            width: 120px;
+            height: 47px;
+            left: 1699px;
+            top: 20px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #FFFFFF;
+            background: #8122B3;
+            border-radius: 5px;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: #272D4E;
+        }
+        
+        .banner {
+            position: absolute;
+            width: 1173px;
+            height: 633.28px;
+            left: 376px;
+            top: 151px;
+        }
+        
+        #view {
+            position: absolute;
+            width: 248px;
+            height: 64px;
+            left: 921px;
+            background: linear-gradient(99.78deg, #7C22B9 0%, #B71A80 46.02%, #DC8D41 98.85%);
+            border-radius: 10px 45px 0px 10px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+            border: none;
+        }
+        
+        .banner img {
+            background: #C4C4C4;
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        #zoe {
+            position: absolute;
+            width: 277px;
+            height: 44px;
+            top: 524px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 53px;
+            color: #272D4E;
+        }
+        
+        #skin {
+            position: absolute;
+            width: 289px;
+            height: 31px;
+            left: 295px;
+            top: 565px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            color: #94A2B3;
+        }
+        
+        #fl {
+            position: absolute;
+            width: 221px;
+            height: 31px;
+            left: 952px;
+            top: 552px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #8122B3;
+        }
+        
+        #user {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 375px;
+            top: 829px;
+        }
+        
+        #numfl {
+            position: absolute;
+            width: 105px;
+            height: 31px;
+            left: 415px;
+            top: 800px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            color: #272D4E;
+        }
+        
+        #flow {
+            position: absolute;
+            width: 174px;
+            height: 29px;
+            left: 528px;
+            top: 800px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 35px;
+            text-transform: uppercase;
+            color: #272D4E;
+        }
+        
+        #heart {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 751px;
+            top: 829px;
+        }
+        
+        #numlike {
+            position: absolute;
+            width: 82px;
+            height: 31px;
+            left: 791px;
+            top: 800px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            color: #272D4E;
+        }
+        
+        #like {
+            position: absolute;
+            width: 86px;
+            height: 29px;
+            left: 874px;
+            top: 800px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 35px;
+            text-transform: uppercase;
+            color: #272D4E;
+        }
+        
+        #state {
+            position: absolute;
+            width: 50px;
+            height: 31.55px;
+            left: 1013px;
+            top: 827px;
+            background: url(download.png);
+        }
+        
+        #coutry {
+            position: absolute;
+            width: 220px;
+            height: 28px;
+            left: 1084px;
+            top: 800px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 35px;
+            text-transform: uppercase;
+            color: #272D4E;
+        }
+        
+        #line {
+            position: absolute;
+            width: 1170px;
+            height: 0px;
+            left: 375px;
+            top: 934px;
+            border: 1px solid #9A7DFF;
+        }
+        
+        .music {
+            position: absolute;
+            width: 1167px;
+            height: 493px;
+            left: 378px;
+            top: 993px;
+        }
+        
+        #mspro {
+            position: absolute;
+            width: 550px;
+            height: 61px;
+            left: 378px;
+            top: 915px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 65px;
+            line-height: 85px;
+            /* or 131% */
+            color: #272D4E;
+        }
+        
+        .basic {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 378px;
+            top: 1115px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        #basic {
+            position: absolute;
+            width: 197px;
+            height: 31px;
+            left: 34px;
+            top: 5px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 41px;
+            color: #272D4E;
+        }
+        
+        #sc {
+            position: absolute;
+            width: 289px;
+            height: 53px;
+            left: 34px;
+            top: 87px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            color: #94A2B3;
+        }
+        
+        #add {
+            position: absolute;
+            width: 345px;
+            height: 152px;
+            top: 219px;
+            background: linear-gradient(279.92deg, #8122B3 1.47%, #B71A80 44.87%, #DC8D41 100%);
+            border-radius: 0px 0px 0px 45px;
+            border: none;
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 138.9%;
+            /* or 44px */
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .basic2 {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 789px;
+            top: 1113px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .basic3 {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 1200px;
+            top: 1113px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        #brpro {
+            position: absolute;
+            width: 574px;
+            height: 61px;
+            left: 378px;
+            top: 1515px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 65px;
+            line-height: 85px;
+            /* or 131% */
+            color: #272D4E;
+        }
+        
+        .basic4 {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 378px;
+            top: 1699px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .basic5 {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 789px;
+            top: 1697px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .basic6 {
+            position: absolute;
+            width: 345px;
+            height: 371px;
+            left: 1200px;
+            top: 1697px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        #data {
+            position: absolute;
+            width: 300px;
+            height: 70px;
+            left: 735px;
+            top: 2180px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 70px;
+            /* identical to box height, or 200% */
+            text-align: center;
+            color: #8122B3;
+        }
+        
+        #sta {
+            position: absolute;
+            width: 701px;
+            height: 69px;
+            left: 545px;
+            top: 2215px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 65px;
+            line-height: 95px;
+            /* or 146% */
+            color: #272D4E;
+        }
+        
+        #dot {
+            position: absolute;
+            width: 250.28px;
+            height: 552.83px;
+            left: 6px;
+            top: 2216px;
+        }
+        
+        #soc {
+            position: absolute;
+            width: 160px;
+            height: 61px;
+            left: 56px;
+            top: -20px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 85px;
+            /* or 155% */
+            color: #272D4E;
+        }
+        
+        .social {
+            position: absolute;
+            width: 485px;
+            height: 382px;
+            left: 160px;
+            top: 2432px;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+        }
+        
+        #other {
+            position: absolute;
+            width: 299px;
+            height: 75px;
+            left: 56px;
+            top: 100px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #94A2B3;
+        }
+        
+        #face {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 55px;
+            top: 250px;
+        }
+        
+        #tw {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 120px;
+            top: 250px;
+        }
+        
+        #pin {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 185px;
+            top: 250px;
+        }
+        
+        .social2 {
+            position: absolute;
+            width: 485px;
+            height: 382px;
+            left: 718px;
+            top: 2432px;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+        }
+        
+        #high {
+            position: absolute;
+            width: 370px;
+            height: 76px;
+            left: 56px;
+            top: 100px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #94A2B3;
+        }
+        
+        #likes {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 165px;
+            top: 200px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #272D4E;
+        }
+        
+        #num-likes {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 56px;
+            top: 200px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #CD031B;
+        }
+        
+        #num-cm {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 56px;
+            top: 235px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #17BFAB;
+        }
+        
+        #cm {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 122px;
+            top: 235px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #272D4E;
+        }
+        
+        #num-rate {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 56px;
+            top: 270px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #FF3D00;
+        }
+        
+        #rate {
+            position: absolute;
+            width: 250px;
+            height: 50px;
+            left: 167px;
+            top: 270px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #94A2B3;
+        }
+        
+        #ana {
+            position: absolute;
+            width: 351px;
+            height: 75px;
+            left: 56px;
+            top: 100px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #94A2B3;
+        }
+        
+        .social3 {
+            position: absolute;
+            width: 485px;
+            height: 382px;
+            left: 1276px;
+            top: 2432px;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+        }
+        
+        #suc {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 85px;
+            top: 200px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #272D4E;
+        }
+        
+        #num-suc {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 56px;
+            top: 200px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #CD031B;
+        }
+        
+        #num-week {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            left: 56px;
+            top: 235px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #17BFAB;
+        }
+        
+        #week {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 85px;
+            top: 235px;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 178.2%;
+            /* or 45px */
+            color: #272D4E;
+        }
+        
+        #look {
+            position: absolute;
+            width: 389px;
+            height: 70px;
+            left: 747px;
+            top: 2948px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 70px;
+            /* identical to box height, or 200% */
+            text-align: center;
+            color: #8122B3;
+        }
+        
+        #may {
+            position: absolute;
+            width: 967px;
+            height: 69px;
+            left: 458px;
+            top: 2980px;
+            font-family: 'Avenir';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 65px;
+            line-height: 95px;
+            /* or 146% */
+            color: #272D4E;
+        }
+        
+        #dot2 {
+            position: absolute;
+            width: 250.28px;
+            height: 552.83px;
+            left: 1657px;
+            top: 2844px;
+        }
+        
+        .zoe {
+            position: absolute;
+            width: 345px;
+            height: 536px;
+            left: 161px;
+            top: 3213px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        #zoe-img {
+            position: absolute;
+            width: 345px;
+            height: 328px;
+        }
+        
+        #nett {
+            position: absolute;
+            width: 233px;
+            height: 31px;
+            left: 38px;
+            top: 330px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #272D4E;
+        }
+        
+        #skin {
+            position: absolute;
+            width: 289px;
+            height: 31px;
+            left: 38px;
+            top: 390px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            color: #94A2B3;
+        }
+        
+        #fls {
+            position: absolute;
+            width: 253px;
+            height: 31px;
+            left: 38px;
+            top: 430px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #8122B3;
+        }
+        
+        .alis {
+            position: absolute;
+            width: 345px;
+            height: 536px;
+            left: 580px;
+            top: 3213px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .maka {
+            position: absolute;
+            width: 345px;
+            height: 536px;
+            left: 999px;
+            top: 3213px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .ange {
+            position: absolute;
+            width: 345px;
+            height: 536px;
+            left: 1418px;
+            top: 3213px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 45px 45px 0px 45px;
+        }
+        
+        .Shop {
+            position: absolute;
+            width: 1602px;
+            height: 261px;
+            left: 160px;
+            top: 3830px;
+            background: #8122B3;
+            border-radius: 25px;
+        }
+        
+        .Shop h2 {
+            position: absolute;
+            width: 832px;
+            height: 126px;
+            left: 200px;
+            top: 20px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 70px;
+            /* or 140% */
+            color: white;
+        }
+        
+        #BT-shop {
+            box-sizing: border-box;
+            position: absolute;
+            width: 257px;
+            height: 72px;
+            left: 1127px;
+            top: 94px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 60px;
+            background: #8122B3;
+        }
+        
+        #elip {
+            position: absolute;
+            width: 89px;
+            height: 88px;
+            left: 1477px;
+            top: 194px;
+        }
+        
+        .logo-bot img {
+            position: absolute;
+            width: 212px;
+            height: 120px;
+            left: 851px;
+            top: 4155px;
+        }
+        
+        .term {
+            position: absolute;
+            width: 1311px;
+            height: 18px;
+            left: 301px;
+            top: 4355px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+            text-align: center;
+            color: #272D4E;
+        }
+        
+        #line {
+            position: absolute;
+            width: 1602px;
+            height: 0px;
+            left: 159px;
+            top: 4450px;
+            border: 1px solid #9A7DFF;
+        }
+        
+        .infu p {
+            position: absolute;
+            width: 282px;
+            height: 30px;
+            left: 841px;
+            top: 4520px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+            color: #94A2B3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <div class="header">
+            <div class="header">
+                <div class="imgLogo"><img src="image/logo-1 1.png" alt=""></div>
+            </div>
+            <div class="menu">
+                <div class="Browser">
+                    <a href="">Browse Influencers</a>
+                </div>
+                <div class="work">
+                    <a href="">How It Works</a>
+                </div>
+                <div class="become">
+                    <a href="">Become an Influencer</a>
+                </div>
+            </div>
+            <button id="loginbut">Log In</button>
+            <button id="signupbut">Sign In</button>
+        </div>
+        <div class="banner">
+            <img src="image/avata1.png" alt="">
+            <button id="view">View Account</button>
+            <p id="zoe">@Zoesennett</p>
+            <p id="skin">Skin And beauty care</p>
+            <p id="fl">2.3M Followers</p>
+        </div>
+        <img id="user" src="image/add-user 1.png" alt="">
+        <p id="numfl">186.8K</p>
+        <p id="flow">FOLLOWERS</p>
+        <img id="heart" src="image/heart 1.png" alt="">
+        <p id="numlike">1.9M</p>
+        <p id="like">LIKES</p>
+        <img id="state" src="image/download 1.png" alt="">
+        <p id="coutry">UNITED STATES</p>
+        <hr id="line" />
+        <p id="mspro">Music Promotions</p>
+        <div class="basic">
+            <p id="basic">Basic</p>
+            <p id="sc">15 second promotion with your song</p>
+            <button id="add">Add To Promotion For $200.00</button>
+        </div>
+        <div class="basic2">
+            <p id="basic">Premium</p>
+            <p id="sc">30 second promotion with your song</p>
+            <button id="add">Add To Promotion For $210.00</button>
+        </div>
+        <div class="basic3">
+            <p id="basic">Utral</p>
+            <p id="sc">60 second promotion with your song</p>
+            <button id="add">Add To Promotion For $220.00</button>
+        </div>
+        <p id="brpro">Brand Promotions</p>
+        <div class="basic4">
+            <p id="basic">Basic</p>
+            <p id="sc">15 second promotion with your song</p>
+            <button id="add">Add To Promotion For $200.00</button>
+        </div>
+        <div class="basic5">
+            <p id="basic">Premium</p>
+            <p id="sc">30 second promotion with your song</p>
+            <button id="add">Add To Promotion For $210.00</button>
+        </div>
+        <div class="basic6">
+            <p id="basic">Utral</p>
+            <p id="sc">60 second promotion with your song</p>
+            <button id="add">Add To Promotion For $220.00</button>
+        </div>
+        <p id="data">DATA INSIGHT</p>
+        <p id="sta">@Zoesennett Statistics</p>
+        <img id="dot" src="image/Group 5.png" alt="">
+        <div class="social">
+            <p id="soc">Social</p>
+            <p id="other">Other social platforms this influencer is active on</p>
+            <img id="face" src="image/facebook (1) 1.png" alt="">
+            <img id="tw" src="image/twitter 1.png" alt="">
+            <img id="pin" src="image/pinterest 1.png" alt="">
+        </div>
+        <div class="social2">
+            <p id="soc">Engagement</p>
+            <p id="high">Influencer’s highest engagement on a video.</p>
+            <p id="num-likes">1,796,147</p>
+            <p id="likes">LIKES</p>
+            <p id="num-cm">8,470</p>
+            <p id="cm">COMMENTS</p>
+            <p id="num-rate">966.069%</p>
+            <p id="rate">ENGAGEMENT RATE</p>
+        </div>
+        <div class="social3">
+            <p id="soc">Promos</p>
+            <p id="ana">Analytical history of this influencer’s promotions.</p>
+            <p id="num-suc">0</p>
+            <p id="suc">SUCCESSFUL PROMOS</p>
+            <p id="num-week">0</p>
+            <p id="week">PROMOS THIS WEEK</p>
+        </div>
+        <p id="look">LOOKING FOR MORE?</p>
+        <p id="may">Other Influencers You May Like</p>
+        <img id="dot2" src="image/Group 41.png" alt="">
+        <div class="zoe">
+            <img id="zoe-img" src="image/Group 27.png" alt="">
+            <p id="nett">@Zoesennett</p>
+            <p id="skin">Skin And beauty care</p>
+            <p id="fls">2.3M Followers</p>
+        </div>
+        <div class="alis">
+            <img id="zoe-img" src="image/Group 27(3).png" alt="">
+            <p id="nett">@AllisonCamile</p>
+            <p id="skin">Writer</p>
+            <p id="fls">2.3M Followers</p>
+        </div>
+        <div class="maka">
+            <img id="zoe-img" src="image/Group 27 (1).png" alt="">
+            <p id="nett">@makaylaj2019</p>
+            <p id="skin">Music</p>
+            <p id="fls">2.3M Followers</p>
+        </div>
+        <div class="ange">
+            <img id="zoe-img" src="image/Group 27 (2).png" alt="">
+            <p id="nett">@Angelian</p>
+            <p id="skin">Skin And beauty care</p>
+            <p id="fls">2.3M Followers</p>
+        </div>
+        <div class="Shop">
+            <h2>Are you ready to take your music or brand to a viral level?</h2>
+            <button id="BT-shop">SHOP INFLUENCERS</button>
+            <img id="elip" src="image/Ellipse 35.png" alt="">
+        </div>
+        <div class="logo-bot">
+            <img src="image/logo-1 2.png" alt="">
+        </div>
+        <div class="term">
+            <p>Terms Of Service &emsp;&emsp;&emsp; Privacy Policy &emsp;&emsp;&emsp; User Agreement &emsp;&emsp;&emsp; FAQ &emsp;&emsp;&emsp; Contact Us &emsp;&emsp;&emsp; support@infuee.io </p>
+        </div>
+        <hr id="line" />
+        <div class="infu">
+            <p>© infuee 2020 Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
