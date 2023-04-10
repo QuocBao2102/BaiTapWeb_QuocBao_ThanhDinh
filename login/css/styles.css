@@ -1,0 +1,309 @@
+.Login {
+    position: relative;
+    width: 1920px;
+    height: 1787px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    position: absolute;
+    width: 1764px;
+    height: 90px;
+    left: 55px;
+    top: -2px;
+}
+
+.Browser {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 669px;
+    top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+    color: #272D4E;
+}
+
+.work {
+    position: absolute;
+    width: 108px;
+    height: 21px;
+    left: 868px;
+    top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #272D4E;
+}
+
+.become {
+    position: absolute;
+    width: 176px;
+    height: 21px;
+    left: 1020px;
+    top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #272D4E;
+}
+
+#loginbut {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 1611px;
+    top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #272D4E;
+    border: none;
+    background-color: white;
+}
+
+#signupbut {
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 1728px;
+    top: 33px;
+    position: absolute;
+    width: 120px;
+    height: 47px;
+    left: 1699px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #8122B3;
+    border-radius: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #272D4E;
+}
+
+.menuLogin {
+    position: absolute;
+    width: 1170px;
+    height: 772px;
+    left: 375px;
+    top: 163px;
+    background: #F2F2F2;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.menuLogin2 {
+    position: absolute;
+    width: 936px;
+    height: 617px;
+    left: 492px;
+    top: 240px;
+}
+
+.menuLogin h2 {
+    position: absolute;
+    width: 173px;
+    height: 61px;
+    left: 471px;
+    top: 77px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 85px;
+    /* or 131% */
+    color: #272D4E;
+}
+
+.inputEmail {
+    position: absolute;
+    width: 935px;
+    height: 72px;
+    left: 117px;
+    top: 263px;
+}
+
+.inputPass {
+    position: absolute;
+    width: 935px;
+    height: 72px;
+    left: 117px;
+    top: 377px;
+}
+
+.menuLogin p {
+    position: absolute;
+    width: 156px;
+    height: 25px;
+    left: 873px;
+    top: 464px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+}
+
+#butGo {
+    position: absolute;
+    width: 267px;
+    height: 72px;
+    left: 424px;
+    top: 566px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #8122B3;
+    border-radius: 60px;
+}
+
+.menuLogin a {
+    position: absolute;
+    width: 271px;
+    height: 25px;
+    left: 422px;
+    top: 669px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    color: #272D4E;
+    text-decoration: none;
+}
+
+.Shop {
+    position: absolute;
+    width: 1602px;
+    height: 261px;
+    left: 160px;
+    top: 1035px;
+    background: #8122B3;
+    border-radius: 25px;
+}
+
+.Shop h2 {
+    position: absolute;
+    width: 832px;
+    height: 126px;
+    left: 200px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    /* or 140% */
+    color: white;
+}
+
+#BT-shop {
+    box-sizing: border-box;
+    position: absolute;
+    width: 257px;
+    height: 72px;
+    left: 1127px;
+    top: 94px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
+    background: #8122B3;
+}
+
+#elip {
+    position: absolute;
+    width: 89px;
+    height: 88px;
+    left: 1477px;
+    top: 194px;
+}
+
+.logo-bot img {
+    position: absolute;
+    width: 212px;
+    height: 120px;
+    left: 851px;
+    top: 1369px;
+}
+
+.term {
+    position: absolute;
+    width: 1311px;
+    height: 18px;
+    left: 301px;
+    top: 1576px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    color: #272D4E;
+}
+
+#line {
+    position: absolute;
+    width: 1602px;
+    height: 0px;
+    left: 159px;
+    top: 1672px;
+    border: 1px solid #9A7DFF;
+}
+
+.infu p {
+    position: absolute;
+    width: 282px;
+    height: 30px;
+    left: 819px;
+    top: 1720px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    color: #94A2B3;
+}
